@@ -1,0 +1,47 @@
+/* Background Image */
+body {
+    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png");
+}
+p {
+    font-size: 14px;
+}
+.panel-group {
+    text-align: center;
+}
+h1, h2 {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+h1 {
+    font-size:28px;
+}
+h2 {
+    font-size: 24px;
+}
+.container {
+	max-width: 960px;
+}
+#boxcontent {
+	background-color: white;
+}
+#image-wrapper {
+    position: relative;
+    width: 250px;
+    float:left;
+    margin: 10px 10px 0px;
+    background-color: #fff;
+}
+#image-wrapper p {
+    position: absolute;
+    left:15px;
+    top: 125px;
+    padding: 10px;
+    border: 1px solid #FFF;
+    width: 250px;
+    color: #FFF;
+    background-color: #4aaaa5;
+    margin: 0px;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+}
