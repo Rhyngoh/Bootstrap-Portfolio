@@ -80,3 +80,14 @@ h2 {
     font-size: 12px;
     margin-top: 20px;
 }
+/* Apply media queries and viewport to make mobile responsive */
+
+/* Samsung Galaxy S5 Media Query 
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    #aboutcontent p{
+        font-size: 8px;
+    }
+} */
