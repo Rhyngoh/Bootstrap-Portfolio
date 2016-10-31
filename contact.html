@@ -16,12 +16,16 @@
 
 	<!-- Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div id="wrap">
 	<div class="container">
 		<div class="row">
-			<nav class="navbar">
+			<nav class="navbar" id="navbarMain">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
 			      <a id="navhoveroverid" class="navbar-brand" href="index.html">Ryan Ngoh</a>
@@ -31,6 +35,22 @@
 		            <li><a id="navhoverover" href="index.html">Portfolio</a></li>
 		            <li class="active"><a id="navhoverover" href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
 		        </ul>
+			  </div>
+			</nav>
+			<nav class="navbar" id="navbarMobile">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			        <a id="navhoveroverid" class="navbar-brand" href="index.html">Ryan Ngoh</a>
+			        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapseNavBar">Navigation <span class="caret"></span>
+			        </button>
+			    </div>
+			    <div class="collapse navbar-collapse" id="collapseNavBar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a id="navhoverover" href="Portfolio.html">About</a></li>
+						<li><a id="navhoverover" href="index.html">Portfolio </a></li>
+						<li class="active"><a id="navhoverover" href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
+					</ul>
+			    </div>
 			  </div>
 			</nav>
 		</div>
