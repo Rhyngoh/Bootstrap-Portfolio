@@ -81,14 +81,22 @@ h2 {
     margin-top: 20px;
 }
 #navbarMobile{
-    display: none;
+    display:none;
 }
+@media screen and (max-width: 980px) {
+    #navbarMain {
+        display: block;
+    }
+    #navbarMobile{
+        display: none;
+    }
+}
+
 /* Apply media queries and viewport to make mobile responsive */
 
 /* Samsung Galaxy S5 Media Query */
 @media screen 
-  and (max-width: 780px) 
-  and (max-height: 480px)  {
+  and (max-width: 768px)  {
     #navbarMain {
         display:none;
     }
@@ -96,16 +104,14 @@ h2 {
         display: block;
     }
     #aboutcontent p{
-        font-size: 10px;
+        font-size: 12px;
     }
     body {
-        font-size: 10px;
+        font-size: 12px;
     }
 } 
 @media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (orientation: portrait) {
+  and (max-width: 640px)  {
     #navbarMain {
         display:none;
     }
