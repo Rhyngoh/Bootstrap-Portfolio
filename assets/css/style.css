@@ -102,3 +102,20 @@ h2 {
         font-size: 10px;
     }
 } 
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (orientation: portrait) {
+    #navbarMain {
+        display:none;
+    }
+    #navbarMobile {
+        display: block;
+    }
+    #aboutcontent p{
+        font-size: 10px;
+    }
+    body {
+        font-size: 10px;
+    }
+} 
