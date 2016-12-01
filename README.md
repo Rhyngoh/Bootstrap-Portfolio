@@ -29,6 +29,6 @@ Each of the pages has a right side panel containing other ways to contact me via
 
 ___
 
-### **Changelog: **
+### Changelog:
 -10/31/2016 Added Portfolio with links to Rock, Paper, Scissors, Hangman, RPG Game, Trivia Game, Jiffy Giphy API, and Liri Bot.
 -11/30/2016 Added Projects tab to website and made gh-pages to each of the links.
