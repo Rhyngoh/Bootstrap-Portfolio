@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Portfolio Contact</title>
+	<title>Portfolio Index</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Theme -->
@@ -12,7 +12,7 @@
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
 
-	<!-- Style -->
+    <!-- Style -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- Viewport -->
@@ -24,7 +24,7 @@
 </head>
 <body>
 <div id="wrap">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<nav class="navbar" id="navbarMain">
 			  <div class="container-fluid">
@@ -34,8 +34,8 @@
 			    <ul class="nav navbar-nav navbar-right">
 		            <li><a id="navhoverover" href="Portfolio.html">About</a></li>
 		            <li><a id="navhoverover" href="projects.html">Projects </a></li>
-		            <li><a id="navhoverover" href="index.html">Portfolio</a></li>
-		            <li class="active"><a id="navhoverover" href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
+		            <li class="active"><a id="navhoverover" href="index.html">Portfolio <span class="sr-only">(current)</span></a></li>
+		            <li><a id="navhoverover" href="#">Contact </a></li>
 		        </ul>
 			  </div>
 			</nav>
@@ -50,8 +50,8 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a id="navhoverover" href="Portfolio.html">About</a></li>
 						<li><a id="navhoverover" href="projects.html">Projects </a></li>
-						<li><a id="navhoverover" href="index.html">Portfolio </a></li>
-						<li class="active"><a id="navhoverover" href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
+						<li class="active"><a id="navhoverover" href="index.html">Portfolio <span class="sr-only">(current)</span></a></li>
+						<li><a id="navhoverover" href="#">Contact</a></li>
 					</ul>
 			    </div>
 			  </div>
@@ -59,25 +59,36 @@
 		</div>
 		<div class="row">
 			<div class="col-md-8" id="boxcontent">
-				<h1>Contact Info:</h1>
+				<h1>Portfolio</h1>
 				<hr>
 				<div class="row">
-					<div class="col-md-12">
-						<form action="mailto:ngoh.ryan@gmail.com method='POST' enctype='text/plain'">
-						    <div class="form-group">
-						  	    <label for="usr">Name</label>
-						    	<input type="text" class="form-control" id="usr" placeholder="John Smith">
-						    </div>
-						  	<div class="form-group">
-							    <label for="email">Email</label>
-							    <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
-						    </div>
-						    <div class="form-group">
-							    <label for="comment">Message</label>
-							    <textarea class="form-control" rows="10" id="comment"></textarea>
-							</div>
-						  	<button type="submit" class="btn btn-default">Submit</button>
-						</form>
+					<div class="col-md-6" id="image-wrapper">
+						<a href="https://rhyngoh.github.io/Hangman/" target="_blank"><img src="assets/images/Battlepirateship.png" width="275" height="200" alt="Hangman" />
+       					<p>Pirate Hangman</p></a>
+					</div>
+					<div class="col-md-6" id="image-wrapper">
+						<a href="https://rhyngoh.github.io/RPG-Game/" target="_blank"><img src="assets/images/the-walking-dead-zombie-season-6.jpg" width="275" height="200" alt="RPG Game" />
+       					<p>Walking Dead RPG</p></a>		
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" id="image-wrapper">
+						<a href="https://rhyngoh.github.io/Trivia-Game/" target="_blank"><img src="assets/images/NES-SM-027.png" width="275" height="200" alt="Trivia Game" />
+       					<p>Super Mario Trivia</p></a>
+					</div>
+					<div class="col-md-6" id="image-wrapper">
+						<a href="https://rhyngoh.github.io/Rock-Paper-Scissors/" target="_blank"><img src="assets/images/rockgarden.jpg" width="275" height="200" alt="Rock Paper Scissors" />
+       					<p>Rock Paper Scissors</p></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" id="image-wrapper">
+						<a href="https://rhyngoh.github.io/Jiffy-Giphy-API/" target="_blank"><img src="assets/images/peanutbutter.jpg" width="275" height="200" alt="JiffyGiphyAPI" />
+       					<p>Jiffy Giphy API</p></a>
+					</div>
+					<div class="col-md-6" id="image-wrapper">
+						<a href="https://rhyngoh.github.io/Liri/" target="_blank"><img src="assets/images/siri.jpg" width="275" height="200" alt="Liri" />
+						<p>Liri Bot</p></a>
 					</div>
 				</div>
 			</div>

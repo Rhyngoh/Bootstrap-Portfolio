@@ -2,114 +2,214 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Portfolio Index</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Theme -->
-	<link rel="stylesheet" href="startbootstrap-creative-gh-pages/css/creative.css">
-	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
-
-    <!-- Style -->
-	<link rel="stylesheet" href="assets/css/style.css">
-
+	<title>Portfolio</title>
 	<!-- Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa:400,700" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<!-- Style -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
 </head>
 <body>
 <div id="wrap">
-	<div class="container">
-		<div class="row">
-			<nav class="navbar" id="navbarMain">
-			  <div class="container-fluid">
-			    <div class="navbar-header">
-			      <a id="navhoveroverid" class="navbar-brand" href="index.html">Ryan Ngoh</a>
-			    </div>
-			    <ul class="nav navbar-nav navbar-right">
-		            <li><a id="navhoverover" href="Portfolio.html">About</a></li>
-		            <li><a id="navhoverover" href="projects.html">Projects </a></li>
-		            <li class="active"><a id="navhoverover" href="index.html">Portfolio <span class="sr-only">(current)</span></a></li>
-		            <li><a id="navhoverover" href="#">Contact </a></li>
-		        </ul>
-			  </div>
-			</nav>
-			<nav class="navbar" id="navbarMobile">
-			  <div class="container-fluid">
-			    <div class="navbar-header">
-			        <a id="navhoveroverid" class="navbar-brand" href="index.html">Ryan Ngoh</a>
-			        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapseNavBar">Navigation <span class="caret"></span>
-			        </button>
-			    </div>
-			    <div class="collapse navbar-collapse" id="collapseNavBar">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a id="navhoverover" href="Portfolio.html">About</a></li>
-						<li><a id="navhoverover" href="projects.html">Projects </a></li>
-						<li class="active"><a id="navhoverover" href="index.html">Portfolio <span class="sr-only">(current)</span></a></li>
-						<li><a id="navhoverover" href="#">Contact</a></li>
-					</ul>
-			    </div>
-			  </div>
-			</nav>
+<!--<div class="container">-->
+	<div class="row">
+		<div class="col m2 l2">
 		</div>
+		<div class="col m8 l8 s12">
+	 	<nav>
+		    <div class="nav-wrapper teal lighten-3">
+		      <a href="home.html" class="brand-logo"><img src="assets/images/logo.png" alt="rhino logo"/>Ryan Ngoh</a>
+		      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+		        <!--<li><a href="Portfolio.html">About Me</a></li>-->
+		        <li><a href="index.html">Portfolio</a></li>
+		        <li><a href="projects.html">Projects</a></li>
+		      </ul>
+		      <ul class="side-nav" id="mobile-demo">
+		      	<li><div class="userView">
+			      <div class="background">
+			        <img src="assets/images/marinasands.jpg">
+			      </div>
+			      <img class="circle" src="assets/images/pictureofme.jpg">
+			      <span class="white-text name">Ryan Ngoh</span>
+			      <span class="white-text email">ngoh.ryan@gmail.com</span>
+			    </div></li>
+		        <!--<li><a href="Portfolio.html">About Me</a></li>-->
+		        <li><a href="home.html">Home</a></li>
+		        <li><a href="index.html">Portfolio</a></li>
+		        <li><a href="projects.html">Projects</a></li>
+		      </ul>
+		    </div>
+		</nav>
 		<div class="row">
-			<div class="col-md-8" id="boxcontent">
-				<h1>Portfolio</h1>
-				<hr>
+			<div class="col m1 l1">
+			</div>
+			<div class="col m10 l10 s12">
 				<div class="row">
-					<div class="col-md-6" id="image-wrapper">
-						<a href="https://rhyngoh.github.io/Hangman/" target="_blank"><img src="assets/images/Battlepirateship.png" width="275" height="200" alt="Hangman" />
-       					<p>Pirate Hangman</p></a>
-					</div>
-					<div class="col-md-6" id="image-wrapper">
-						<a href="https://rhyngoh.github.io/RPG-Game/" target="_blank"><img src="assets/images/the-walking-dead-zombie-season-6.jpg" width="275" height="200" alt="RPG Game" />
-       					<p>Walking Dead RPG</p></a>		
-					</div>
+					<h4>Portfolio</h4>
 				</div>
 				<div class="row">
-					<div class="col-md-6" id="image-wrapper">
-						<a href="https://rhyngoh.github.io/Trivia-Game/" target="_blank"><img src="assets/images/NES-SM-027.png" width="275" height="200" alt="Trivia Game" />
-       					<p>Super Mario Trivia</p></a>
+					<div class="col m5 l5 s6">
+						<div class="card small">
+				            <div class="card-image waves-effect waves-block waves-light">
+						      <img class="activator" src="assets/images/hangman.png">
+						    </div>
+						    <div class="card-content">
+						      <span class="card-title activator grey-text text-darken-4">Pirate Hangman<i class="material-icons right">more_vert</i></span>
+						      <p><a href="https://rhyngoh.github.io/Hangman/" target="_blank">Link to play!</a></p>
+						    </div>
+						    <div class="card-reveal">
+						      <span class="card-title grey-text text-darken-4">Pirate Hangman<i class="material-icons right">close</i></span>
+						      <p>Can ye best Davy Jones in hangman or will yer soul be trapped in his locker!</p>
+						      <ul>
+						      	<li>Technologies used:</li>
+						      	<li>Javascript</li>
+						      	<li>Bootstrap</li>
+						      	<li>Understanding in for loops</li>
+						      </ul>
+						    </div>
+				        </div>
+				        <div class="card small">
+				            <div class="card-image waves-effect waves-block waves-light">
+						      <img class="activator" src="assets/images/triviagame.png">
+						    </div>
+						    <div class="card-content">
+						      <span class="card-title activator grey-text text-darken-4">Super Mario Trivia<i class="material-icons right">more_vert</i></span>
+						      <p><a href="https://rhyngoh.github.io/Trivia-Game/" target="_blank">Link to play!</a></p>
+						    </div>
+						    <div class="card-reveal">
+						      <span class="card-title grey-text text-darken-4">Super Mario Trivia<i class="material-icons right">close</i></span>
+						      <p>Do you know your Super Mario Trivia? Test your knowledge! (Contains a blooper)</p>
+						      <ul>
+						      	<li>Technologies used:</li>
+						      	<li>jQuery</li>
+						      	<li>Setting timers/intervals</li>
+						      </ul>
+						    </div>
+				        </div>
+				        <div class="card small">
+				            <div class="card-image waves-effect waves-block waves-light">
+						      <img class="activator" src="assets/images/jiffyapi.png">
+						    </div>
+						    <div class="card-content">
+						      <span class="card-title activator grey-text text-darken-4">Jiffy Giphy API<i class="material-icons right">more_vert</i></span>
+						      <p><a href="https://rhyngoh.github.io/Jiffy-Giphy-API/" target="_blank">Link to Use!</a></p>
+						    </div>
+						    <div class="card-reveal">
+						      <span class="card-title grey-text text-darken-4">Jiffy Giphy API<i class="material-icons right">close</i></span>
+						      <p>It's Peanut Butter Jelly Time!</p>
+						      <ul>
+						      	<li>Technologies used:</li>
+						      	<li>Dynamically generated events</li>
+						      	<li>jQuery</li>
+						      	<li>AJAX</li>
+						      	<li>Delegated event handlers</li>
+						      </ul>
+						    </div>
+				        </div>
 					</div>
-					<div class="col-md-6" id="image-wrapper">
-						<a href="https://rhyngoh.github.io/Rock-Paper-Scissors/" target="_blank"><img src="assets/images/rockgarden.jpg" width="275" height="200" alt="Rock Paper Scissors" />
-       					<p>Rock Paper Scissors</p></a>
+					<div class="col m2 l2">
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6" id="image-wrapper">
-						<a href="https://rhyngoh.github.io/Jiffy-Giphy-API/" target="_blank"><img src="assets/images/peanutbutter.jpg" width="275" height="200" alt="JiffyGiphyAPI" />
-       					<p>Jiffy Giphy API</p></a>
+					<div class="col m5 l5 s6">
+						<div class="card small">
+				            <div class="card-image waves-effect waves-block waves-light">
+						      <img class="activator" src="assets/images/rpggame.png">
+						    </div>
+						    <div class="card-content">
+						      <span class="card-title activator grey-text text-darken-4">Walking Dead RPG<i class="material-icons right">more_vert</i></span>
+						      <p><a href="https://rhyngoh.github.io/RPG-Game/" target="_blank"">Link to play!</a></p>
+						    </div>
+						    <div class="card-reveal">
+						      <span class="card-title grey-text text-darken-4">Walking Dead RPG<i class="material-icons right">close</i></span>
+						      <p>In the zombie apocalypse, it is kill or be killed.</p>
+						      <ul>
+						      	<li>Technologies used:</li>
+						      	<li>jQuery</li>
+						      	<li>addClass/removeClass/appendTo</li>
+						      	<li>DOM manipulation</li>
+						      </ul>
+						    </div>
+				        </div>
+				        <div class="card small">
+				            <div class="card-image waves-effect waves-block waves-light">
+						      <img class="activator" src="assets/images/rockpaperscissors.png">
+						    </div>
+						    <div class="card-content">
+						      <span class="card-title activator grey-text text-darken-4">Rock Paper Scissors<i class="material-icons right">more_vert</i></span>
+						      <p><a href="https://rhyngoh.github.io/Rock-Paper-Scissors/" target="_blank"">Link to play!</a></p>
+						    </div>
+						    <div class="card-reveal">
+						      <span class="card-title grey-text text-darken-4">Rock Paper Scissors<i class="material-icons right">close</i></span>
+						      <p>Play a simple game of Rock, Paper, Scissors against a computer.</p>
+						      <ul>
+						      	<li>Technologies used:</li>
+						      	<li>Onkeyup events</li>
+						      	<li>Compare function</li>
+						      </ul>
+						    </div>
+				        </div>
+				        <div class="card small">
+				            <div class="card-image waves-effect waves-block waves-light">
+						      <img class="activator" src="assets/images/siri.jpg">
+						    </div>
+						    <div class="card-content">
+						      <span class="card-title activator grey-text text-darken-4">Liri Bot<i class="material-icons right">more_vert</i></span>
+						      <p><a href="https://github.com/Rhyngoh/Liri" target="_blank">Link to repo!</a></p>
+						    </div>
+						    <div class="card-reveal">
+						      <span class="card-title grey-text text-darken-4">Liri Bot<i class="material-icons right">close</i></span>
+						      <p>My first Node application that mimics functions of Siri</p>
+						      <ul>
+						      	<li>Technologies used:</li>
+						      	<li>NodeJS</li>
+						      	<li>npm twitter, request, spotify</li>
+						      	<li>node fs</li>
+						      </ul>
+						    </div>
+				        </div>
 					</div>
-					<div class="col-md-6" id="image-wrapper">
-						<a href="https://rhyngoh.github.io/Liri/" target="_blank"><img src="assets/images/siri.jpg" width="275" height="200" alt="Liri" />
-						<p>Liri Bot</p></a>
-					</div>
+
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="panel-group">
-					<div class="panel panel-default">
-						<div class="panel-body"><h2>Connect with Me</h2></div>
-						<hr>
-						<div class="panel-body">
-							<a href="http://github.com/Rhyngoh" target="_blank"><img src="assets/images/1477506997_github_square_black.png" alt="github" width="50" height="50"></a> <a href="https://www.linkedin.com/in/ryan-ngoh-9bb991129" target="_blank"><img src="assets/images/1477507075_linkedin_square_color.png" alt="LinkedIn" width="50" height="50"></a> <a href="http://stackoverflow.com/users/7011460/ryan-ngoh" target="_blank"><img src="assets/images/1477507052_Stack_Overflow.png" alt="StackOverflow" width="50" height="50"></a>
-						</div>
-					</div>
-				</div>
+			<div class="col m1 l1">
 			</div>
-		</div>		
+		</div>
+		</div>
+		<div class="col m2 l2">
+		</div>
 	</div>
 </div>
-	<div id="footer">
-		<div class="container text-center">
-			<p class="text-muted credit" style="color:#fff">&#169; Copyright 2016 Ryan Ngoh</p>
-		</div>
-	</div>
+	<footer class="page-footer blue-grey darken-1">
+      <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+	            <h5 class="white-text">Contact Me: </h5>
+	            <p class="grey-text text-lighten-4">Mobile: (469) 371-0438 | Email: ngoh.ryan@gmail.com</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links:</h5>
+				<a class="grey-text text-lighten-3" href="http://github.com/Rhyngoh" target="_blank"><img src="assets/images/github-48.png" alt="github" width="50" height="50"></a>  
+				<a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/ryan-ngoh-9bb991129" target="_blank"><img src="assets/images/linkedin-48.png" alt="LinkedIn" width="50" height="50"></a>  
+				<a class="grey-text text-lighten-3" href="http://stackoverflow.com/users/7011460/ryan-ngoh" target="_blank"><img src="assets/images/overflow-48.png" alt="StackOverflow" width="50" height="50"></a>
+            </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        	&#169; Copyright 2016 Ryan Ngoh
+        </div>
+      </div>
+    </footer>
+	<script src="assets/javascript/script.js"></script>
 </body>
 </html>

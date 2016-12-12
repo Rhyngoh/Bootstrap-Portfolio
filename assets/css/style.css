@@ -1,9 +1,11 @@
-/* Background Image */
 *{
     font-family: "Merriweather", "Open Sans", serif, sans-serif;
 }
 html, body {
     height: 100%;
+}
+body {
+    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png");
 }
 #wrap {
     min-height: 100%;
@@ -11,120 +13,43 @@ html, body {
     margin: 0 auto -60px;
     padding: 0 0 60px;
 }
-#footer {
-    height: 60px;
-    background-color: #666;
-    margin-top:10px;
-}
-body {
-    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png");
-}
-.panel-group {
+.footer-copyright{
     text-align: center;
 }
-h1, h2 {
-    color: #4aaaa5;
+#homeContentBox p{
+    font-family: 'Aref Ruqaa', serif;
     font-weight: bold;
+    opacity: 0;
+    margin-top: 25px;
+    text-align: center;
 }
-h1 {
-    font-size:28px;
+#homeContentBox p.firstHome {
+    font-size: 32px;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
 }
-h2 {
+#homeContentBox p.secondHome {
     font-size: 24px;
+    -webkit-transition: opacity 3s ease-in;
+    -moz-transition: opacity 3s ease-in;
+    -o-transition: opacity 3s ease-in;
+    -ms-transition: opacity 3s ease-in;
+    transition: opacity 3s ease-in;
 }
-h3{
-    font-size: 20px;
+#homeContentBox p.thirdHome {
+    font-size: 24px;
+    -webkit-transition: opacity 4s ease-in;
+    -moz-transition: opacity 4s ease-in;
+    -o-transition: opacity 4s ease-in;
+    -ms-transition: opacity 4s ease-in;
+    transition: opacity 4s ease-in;
 }
-.container {
-	max-width: 960px;
+#homeContentBox p.load {
+    opacity: 1;
 }
-#boxcontent {
-	background-color: white;
-    max-width: 650px;
+.portfolioContentBox{
+    float: left;
 }
-#aboutcontent p {
-    font-size: 14px;
-}
-#image-wrapper {
-    position: relative;
-    width: 290px;
-    float:left;
-    margin: 10px 10px 0px;
-    background-color: #fff;
-}
-#image-wrapper p {
-    position: absolute;
-    left:15px;
-    top: 125px;
-    padding: 10px;
-    border: 1px solid #FFF;
-    width: 276px;
-    color: #FFF;
-    background-color: #4aaaa5;
-    margin: 0px;
-    font-weight: bold;
-    font-size:20px;
-    text-align: center;
-}
-.active{
-    background-color: #eee;
-}
-#navhoveroverid:hover {
-    transition: background-color 1.5s ease;
-    transition-duration: 2s;
-    background-color: #fff3e6;
-}
-#navhoverover:hover {
-    transition: background-color 1.5s ease;
-    transition-duration: 2s;
-    background-color: #fff3e6;
-}
-#footer p {
-    font-size: 12px;
-    margin-top: 20px;
-}
-#navbarMobile{
-    display:none;
-}
-@media screen and (max-width: 980px) {
-    #navbarMain {
-        display: block;
-    }
-    #navbarMobile{
-        display: none;
-    }
-}
-
-/* Apply media queries and viewport to make mobile responsive */
-
-/* Samsung Galaxy S5 Media Query */
-@media screen 
-  and (max-width: 768px)  {
-    #navbarMain {
-        display:none;
-    }
-    #navbarMobile {
-        display: block;
-    }
-    #aboutcontent p{
-        font-size: 12px;
-    }
-    body {
-        font-size: 12px;
-    }
-} 
-@media screen 
-  and (max-width: 640px)  {
-    #navbarMain {
-        display:none;
-    }
-    #navbarMobile {
-        display: block;
-    }
-    #aboutcontent p{
-        font-size: 10px;
-    }
-    body {
-        font-size: 10px;
-    }
-} 
