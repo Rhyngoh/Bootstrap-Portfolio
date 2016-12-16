@@ -1,5 +1,5 @@
 # Ryan Ngoh's Portfolio
-## Portfolio, made using materialize, bootstrap version is 2.
+## Portfolio, made using materialize
 ___
 ### Files Included:
 #### **home.html**
