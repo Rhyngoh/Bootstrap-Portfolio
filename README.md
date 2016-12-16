@@ -2,17 +2,13 @@
 ## Portfolio, made using materialize, bootstrap version is 2.
 ___
 ### Files Included:
-#### **Portfolio.html**
+#### **home.html**
 
-Contains content about me
+Contains home page with introduction
 
 #### **projects.html**
 
 Contains projects I've contributed to
-
-#### **contact.html**
-
-Contains html page to contact me
 	
 #### **index.html**
 
@@ -24,7 +20,7 @@ Contains links to different programs written by me
 + Jiffy Giphy API
 + Liri Bot
 
-Each of the pages has a right side panel containing other ways to contact me via Github, LinkedIn, and Stack Overflow
+Each of the pages has a footer containing ways to contact me via Github, LinkedIn, and Stack Overflow
 
 
 ___
