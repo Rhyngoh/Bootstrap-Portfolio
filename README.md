@@ -30,6 +30,8 @@ Each of the pages has a right side panel containing other ways to contact me via
 ___
 
 ### Changelog:
+-12/15/2016 Added link to resume on all pages
+
 -12/12/2016 Changed framework to materialize
 
 -12/7/2016 Added Favicons to all websites
