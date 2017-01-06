@@ -26,6 +26,8 @@ Each of the pages has a footer containing ways to contact me via Github, LinkedI
 ___
 
 ### Changelog:
+-1/6/2017 Added Project 2 to projects tab
+
 -12/15/2016 Added link to resume on all pages
 
 -12/12/2016 Changed framework to materialize
