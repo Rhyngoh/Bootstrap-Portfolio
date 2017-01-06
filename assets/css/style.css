@@ -13,6 +13,12 @@ body {
     margin: 0 auto -60px;
     padding: 0 0 60px;
 }
+.parallax-container{
+    height: 300px;
+}
+.projectcontent{
+    height: 575px;
+}
 .footer-copyright{
     text-align: center;
 }
