@@ -5,7 +5,7 @@ html, body {
     height: 100%;
 }
 body {
-    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png");
+    background-image: url("../images/sayagata-400px.png");
 }
 #wrap {
     min-height: 100%;
