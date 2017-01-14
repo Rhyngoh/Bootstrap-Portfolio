@@ -22,6 +22,17 @@ body {
 .footer-copyright{
     text-align: center;
 }
+#technologies {
+    
+    font-size: 28px;
+}
+#aboutmepicture{
+    width: 100%;
+    padding-top: 42px;
+}
+th {
+    font-size: 18px;
+}
 #homeContentBox p{
     font-family: 'Aref Ruqaa', serif;
     font-weight: bold;
