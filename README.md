@@ -26,6 +26,8 @@ Each of the pages has a footer containing ways to contact me via Github, LinkedI
 ___
 
 ### Changelog:
+-1/19/2017 Changed index.html to have tympanus css properties
+
 -1/13/2017 Added technologies and resized columns
 
 -1/6/2017 Added Project 2 to projects tab
