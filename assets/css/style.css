@@ -173,7 +173,7 @@ figure.effect-ming figcaption::before {
 }
 
 figure.effect-ming h2 {
-    margin: 0% 0 10px 0;
+    margin: 2% 0 10px 0;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
 }
