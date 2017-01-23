@@ -70,10 +70,7 @@ th {
 .portfolioContentBox{
     float: left;
 }
-h2{
-    font-size: 2.43rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+
 .grid {
     position: relative;
     clear: both;
@@ -139,7 +136,7 @@ h2{
 
 .grid figure h2,
 .grid figure p {
-    margin: 0;
+    margin: 6px;
 }
 
 .grid figure p {
@@ -203,4 +200,8 @@ figure.effect-ming:hover figcaption {
 
 figure.effect-ming:hover img {
     opacity: 0.4;
+}
+figure.effect-ming p.figurecaptionheader{
+    font-size: 125%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
